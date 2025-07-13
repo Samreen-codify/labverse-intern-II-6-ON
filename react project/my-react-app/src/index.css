@@ -726,7 +726,7 @@ body {
 /* Responsive Courses Grid: All cards same width on all screens */
 .courses-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   justify-content: center;
   align-items: stretch;
@@ -739,8 +739,9 @@ body {
   overflow: hidden;
   width: 100%;
   min-width: 0;
-  max-width: 100%;
+  max-width: 60vh;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   transition: transform 0.2s, box-shadow 0.2s;
   margin: 0;
@@ -817,7 +818,7 @@ body {
   font-weight: 600;
 }
 .stars span {
-  color: #888;
+  color: #918d8d;
   font-size: 0.95rem;
   margin-left: 0.3rem;
 }
