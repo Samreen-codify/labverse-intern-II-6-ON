@@ -729,7 +729,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
 }
 .course-card {
   background: #fff;
@@ -741,7 +741,7 @@ body {
   min-width: 0;
   max-width: 60vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   transition: transform 0.2s, box-shadow 0.2s;
   margin: 0;
