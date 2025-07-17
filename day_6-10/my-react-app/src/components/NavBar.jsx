@@ -35,7 +35,9 @@ function NavBar() {
           className={`dropdown${dropdownOpen ? " open" : ""}`}
           onClick={handleDropdownToggle}
         >
-          <a href="#" className="dropbtn">Pages▾</a>
+           <a href="#">
+  Pages <span className="dropdown-arrow">▾</span>
+</a>
           <div className="dropdown-content">
             <a href="/developedby" onClick={handleNavLinkClick}>Developed by</a>
             <a href="/admission" onClick={handleNavLinkClick}>Admission Form</a>
